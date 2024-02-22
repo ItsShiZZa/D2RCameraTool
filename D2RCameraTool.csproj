@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>x64</PlatformTarget>
+    <ApplicationIcon>bin\Release\net6.0-windows10.0.17763.0\webcam_cam_camera_10859.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="D2R.1.6.77312.exe" />
+    <None Remove="D2RCamera.CT" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Release\net6.0-windows10.0.17763.0\webcam_cam_camera_10859.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Memory">
+      <HintPath>bin\Release\net6.0-windows10.0.17763.0\Memory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
