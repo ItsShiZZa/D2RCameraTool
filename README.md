@@ -1,5 +1,6 @@
 # D2RCameraTool
 Diablo II: Resurrected - mod camera values (angles and zoom) in memory - change camera perspective
+Cheat Engine table included as well (.CT file)
 
 Working as of D2R version 1.6.77312
 
