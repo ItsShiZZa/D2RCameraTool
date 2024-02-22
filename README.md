@@ -1,6 +1,6 @@
 # D2RCameraTool
 
-Discord: __shizza__
+# Discord: __shizza__
 
 Diablo II: Resurrected - mod camera values (angles and zoom) in memory - change camera perspective
 Cheat Engine table included as well (.CT file)
